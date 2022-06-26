@@ -9,17 +9,17 @@ var summit = document.getElementById("search");
 function incogTrigger(){
     var sauce = parseInt(document.getElementById("sauce").value);
     chrome.windows.create({"url": `https://nhentai.net/g/${sauce}`, "incognito": true})
-}
+};
 
 //Click the button -> submit
 summit.onclick = function(){
     incogTrigger()
 };
 
-//Press enter for search
+//Press enter for search after typing the bar
 sauce.addEventListener('keyup', function(event){
         if (event.code === 'Enter') {
             incogTrigger()
         }
     }
-)
+);

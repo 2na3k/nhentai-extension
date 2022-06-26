@@ -11,3 +11,10 @@
 1. Press Ctrl + Shift + F to access to the extension.
 2. Type the 6-digit code.
 3. Enter, or click on the button.
+
+### OR 
+1. Highlight the code on any web you found.
+2. Left click, choose Search with Nhentai.
+3. Yay!
+
+Update 26/6/2022: Update the right-click menu option for quick search.
